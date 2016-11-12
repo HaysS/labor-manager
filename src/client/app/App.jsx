@@ -4,7 +4,7 @@ import {Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'rea
 class App extends Component {
 	render() {
 		return (
-			<Router history={hashHistory}>
+			<Router history={browserHistory}>
 				<Route path='/' component={Container}>
 					<IndexRoute component={Home} />
 					<Route path='/page' component={Page} />
