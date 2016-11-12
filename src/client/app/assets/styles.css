@@ -24,10 +24,6 @@ p {
 	color: #777777;
 }
 
-a:hover {
-	text-shadow: -2px 1px 5px white;
-}
-
 hr {
 	height: 2px;
 	margin: 30px 0px;
@@ -41,7 +37,7 @@ body {
 header {
 	background-color: white;
 	overflow: hidden;
-	border-bottom: 3px solid #cccccc;
+	border-bottom: 4px solid darkred;
 }
 
 header a {
@@ -115,8 +111,8 @@ nav p {
 	color: lightgray;
 }
 
-header h1 {
-	color: white;
+header {
+	background-color: #ff4300;
 }
 
 /*---------------------------------
@@ -128,10 +124,12 @@ header .column {
 }
 
 header .left-col {
-	background-color: #4aaaa5;	
+	background-color: white;	
+	color: #ff4300;
 }
 
-header .right-col p {
+header .right-col p, header .right-col a{
+	color: white;
 	padding: 0px 10px;
 }
 
