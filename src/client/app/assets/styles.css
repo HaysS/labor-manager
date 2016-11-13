@@ -32,12 +32,13 @@ hr {
 
 body {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background: #f4f4f4;
 }
 
 header {
-	background-color: white;
+	background-color: #ff3b00;
 	overflow: hidden;
-	border-bottom: 4px solid darkred;
+	border-bottom: 4px solid #ff753a;
 }
 
 header a {
@@ -111,10 +112,6 @@ nav p {
 	color: lightgray;
 }
 
-header {
-	background-color: #ff4300;
-}
-
 /*---------------------------------
  *Classes
  *---------------------------------*/
@@ -179,19 +176,10 @@ form .message .text-box {
 }
 
 .main-content .column {
+	width: 800px;
 	padding-top: 30px;
 	padding-bottom: 30px;
 	margin: 30px 0px;
-	border-bottom: 3px solid #dddddd;
-}
-
-.main-content .left-col {
-	width: 590px;
-	background: white;
-}
-
-.main-content .right-col {
-	width: 210px;
 	background: white;
 }
 
