@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router';
+import Home from './Home.jsx';
 
 class App extends Component {
 	render() {
@@ -15,7 +16,6 @@ class App extends Component {
 	}
 }
 
-const Home = () => <div className="column"><h1>Hello from Home!</h1></div>;
 const Page = () => <div className="column"><h1>This is a blank page.</h1></div>;
 const NotFound = () => <div className="column"><h1>404 Error: Page not found.</h1></div>;
 const Nav = () => (
