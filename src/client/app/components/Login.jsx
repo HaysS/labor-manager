@@ -1,15 +1,7 @@
 import React, {Component} from 'react';
-import actions from '../actions/loginActions';
 
 module.exports = React.createClass({
-	getInitialState: function() {
-		return{
-			rootRef: this.props.rootRef,
-		}
-	},
 	handleForm: function(e) {
-		actions.submitNewUserForm(document.getElementById('femail').value, document.getElementById('fpassword').value);
-
 		document.getElementById("createUserFrom").reset();
 
 		e.preventDefault();
