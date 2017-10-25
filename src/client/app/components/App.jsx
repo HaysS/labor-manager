@@ -21,7 +21,7 @@ const NotFound = () => <div className="column"><h1>404 Error: Page not found.</h
 const Nav = () => (
 	<header>
 		<div className="header-content">
-			<h1 className="left-col column">Dating App</h1>
+			<h1 className="left-col column">Grambler</h1>
 			<nav className="right-col column">
 				<Link to='/'>Home</Link><p> | </p>
 				<Link to='/page'>Page</Link>
